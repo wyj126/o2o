@@ -1,0 +1,121 @@
+2020-08-31 13:14:32.824[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ShopDao.queryByShopId] use [slave] Srategy,SqlConmmanType[SELECT]..
+2020-08-31 13:14:32.892[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:slave
+2020-08-31 13:14:32.920[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==>  Preparing: select s.shop_name, s.shop_category_id, s.shop_desc, s.shop_addr, s.shop_img, s.owner_id, s.phone, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name from t_shop as s, t_area as a, t_shop_category as sc where s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id and s.shop_id = ? 
+2020-08-31 13:19:33.558[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ShopDao.queryByShopId] use [slave] Srategy,SqlConmmanType[SELECT]..
+2020-08-31 13:19:33.579[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:slave
+2020-08-31 13:19:33.609[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==>  Preparing: select s.shop_name, s.shop_category_id, s.shop_desc, s.shop_addr, s.shop_img, s.owner_id, s.phone, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name from t_shop as s, t_area as a, t_shop_category as sc where s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id and s.shop_id = ? 
+2020-08-31 13:22:48.670[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ShopDao.queryByShopId] use [master] Srategy,SqlConmmanType[SELECT]..
+2020-08-31 13:22:48.683[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-08-31 13:22:48.723[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==>  Preparing: select s.shop_name, s.shop_category_id, s.shop_desc, s.shop_addr, s.shop_img, s.owner_id, s.phone, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name from t_shop as s, t_area as a, t_shop_category as sc where s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id and s.shop_id = ? 
+2020-08-31 13:22:48.790[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==> Parameters: 1(Long)
+2020-08-31 13:26:36.102[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ShopDao.queryByShopId] use [master] Srategy,SqlConmmanType[SELECT]..
+2020-08-31 13:26:36.113[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-08-31 13:26:36.133[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==>  Preparing: select s.shop_name, s.shop_category_id, s.shop_desc, s.shop_addr, s.shop_img, s.phone, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name from t_shop as s, t_area as a, t_shop_category as sc where s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id and s.shop_id = ? 
+2020-08-31 13:26:36.168[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==> Parameters: 1(Long)
+2020-08-31 13:27:39.685[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ShopDao.queryByShopId] use [master] Srategy,SqlConmmanType[SELECT]..
+2020-08-31 13:27:39.687[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-08-31 13:27:39.707[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==>  Preparing: select s.shop_name, s.shop_desc, s.shop_addr, s.shop_img, s.phone, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name from t_shop as s, t_area as a, t_shop_category as sc where s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id and s.shop_id = ? 
+2020-08-31 13:27:39.747[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==> Parameters: 1(Long)
+2020-08-31 13:27:39.781[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-<==      Total: 1
+2020-08-31 14:04:50.531[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ShopDao.queryByShopId] use [master] Srategy,SqlConmmanType[SELECT]..
+2020-08-31 14:04:50.560[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-08-31 14:04:50.609[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==>  Preparing: select s.shop_name, s.shop_desc, s.shop_addr, s.shop_img, s.phone, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name from t_shop as s, t_area as a, t_shop_category as sc where s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id and s.shop_id = ? 
+2020-08-31 14:04:50.721[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==> Parameters: 1(Long)
+2020-08-31 14:04:50.920[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-<==      Total: 1
+2020-08-31 14:04:51.143[main]DEBUGcom.wyj.util.ImageUtil-current relativeAddr is:upload\item\shop\1\2020083114045157985.jpg
+2020-08-31 14:04:51.144[main]DEBUGcom.wyj.util.ImageUtil-current complete addr is:H:\projectdev\image\upload\item\shop\1\2020083114045157985.jpg
+2020-08-31 14:04:52.476[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ShopDao.updateShop] use [master] Srategy,SqlConmmanType[UPDATE]..
+2020-08-31 14:04:52.477[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-08-31 14:04:52.512[main]DEBUGcom.wyj.dao.ShopDao.updateShop-==>  Preparing: update t_shop SET shop_name=?, shop_img=?, last_edit_time=? where shop_id=? 
+2020-08-31 14:04:52.519[main]DEBUGcom.wyj.dao.ShopDao.updateShop-==> Parameters: 修改后的名字(String), upload\item\shop\1\2020083114045157985.jpg(String), 2020-08-31 14:04:52.476(Timestamp), 1(Long)
+2020-08-31 14:04:52.690[main]DEBUGcom.wyj.dao.ShopDao.updateShop-<==    Updates: 1
+2020-08-31 14:04:52.692[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ShopDao.queryByShopId] use [master] Srategy,SqlConmmanType[SELECT]..
+2020-08-31 14:04:52.692[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-08-31 14:04:52.692[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==>  Preparing: select s.shop_name, s.shop_desc, s.shop_addr, s.shop_img, s.phone, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name from t_shop as s, t_area as a, t_shop_category as sc where s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id and s.shop_id = ? 
+2020-08-31 14:04:52.692[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==> Parameters: 1(Long)
+2020-08-31 14:04:52.697[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-<==      Total: 1
+2020-08-31 14:27:53.851[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ShopDao.queryByShopId] use [master] Srategy,SqlConmmanType[SELECT]..
+2020-08-31 14:27:53.871[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-08-31 14:27:53.903[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==>  Preparing: select s.shop_name, s.shop_desc, s.shop_addr, s.shop_img, s.phone, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name from t_shop as s, t_area as a, t_shop_category as sc where s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id and s.shop_id = ? 
+2020-08-31 14:27:53.937[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==> Parameters: 1(Long)
+2020-08-31 14:27:54.064[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-<==      Total: 1
+2020-08-31 14:27:54.249[main]DEBUGcom.wyj.util.ImageUtil-current relativeAddr is:upload\item\shop\1\2020083114275447076.jpg
+2020-08-31 14:27:54.250[main]DEBUGcom.wyj.util.ImageUtil-current complete addr is:H:\projectdev\image\upload\item\shop\1\2020083114275447076.jpg
+2020-08-31 14:27:54.991[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ShopDao.updateShop] use [master] Srategy,SqlConmmanType[UPDATE]..
+2020-08-31 14:27:55.035[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-08-31 14:27:55.063[main]DEBUGcom.wyj.dao.ShopDao.updateShop-==>  Preparing: update t_shop SET shop_name=?, shop_img=?, last_edit_time=? where shop_id=? 
+2020-08-31 14:27:55.080[main]DEBUGcom.wyj.dao.ShopDao.updateShop-==> Parameters: 修改后的名字(String), upload\item\shop\1\2020083114275447076.jpg(String), 2020-08-31 14:27:54.991(Timestamp), 1(Long)
+2020-08-31 14:27:55.290[main]DEBUGcom.wyj.dao.ShopDao.updateShop-<==    Updates: 1
+2020-08-31 14:27:55.291[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ShopDao.queryByShopId] use [master] Srategy,SqlConmmanType[SELECT]..
+2020-08-31 14:27:55.292[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-08-31 14:27:55.292[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==>  Preparing: select s.shop_name, s.shop_desc, s.shop_addr, s.shop_img, s.phone, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name from t_shop as s, t_area as a, t_shop_category as sc where s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id and s.shop_id = ? 
+2020-08-31 14:27:55.293[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==> Parameters: 1(Long)
+2020-08-31 14:27:55.302[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-<==      Total: 1
+2020-08-31 14:32:36.640[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ShopDao.queryByShopId] use [master] Srategy,SqlConmmanType[SELECT]..
+2020-08-31 14:32:36.665[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-08-31 14:32:36.684[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==>  Preparing: select s.shop_name, s.shop_desc, s.shop_addr, s.shop_img, s.phone, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name from t_shop as s, t_area as a, t_shop_category as sc where s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id and s.shop_id = ? 
+2020-08-31 14:32:36.722[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==> Parameters: 1(Long)
+2020-08-31 14:32:36.782[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-<==      Total: 1
+2020-08-31 14:32:36.951[main]DEBUGcom.wyj.util.ImageUtil-current relativeAddr is:upload\item\shop\1\2020083114323683073.jpg
+2020-08-31 14:32:36.951[main]DEBUGcom.wyj.util.ImageUtil-current complete addr is:H:\projectdev\image\upload\item\shop\1\2020083114323683073.jpg
+2020-08-31 14:32:37.641[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ShopDao.updateShop] use [master] Srategy,SqlConmmanType[UPDATE]..
+2020-08-31 14:32:37.642[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-08-31 14:32:37.674[main]DEBUGcom.wyj.dao.ShopDao.updateShop-==>  Preparing: update t_shop SET shop_name=?, shop_img=?, last_edit_time=? where shop_id=? 
+2020-08-31 14:32:37.693[main]DEBUGcom.wyj.dao.ShopDao.updateShop-==> Parameters: 修改后的名字(String), upload\item\shop\1\2020083114323683073.jpg(String), 2020-08-31 14:32:37.64(Timestamp), 1(Long)
+2020-08-31 14:32:37.790[main]DEBUGcom.wyj.dao.ShopDao.updateShop-<==    Updates: 1
+2020-08-31 14:32:37.802[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ShopDao.queryByShopId] use [master] Srategy,SqlConmmanType[SELECT]..
+2020-08-31 14:32:37.802[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-08-31 14:32:37.803[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==>  Preparing: select s.shop_name, s.shop_desc, s.shop_addr, s.shop_img, s.phone, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name from t_shop as s, t_area as a, t_shop_category as sc where s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id and s.shop_id = ? 
+2020-08-31 14:32:37.803[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==> Parameters: 1(Long)
+2020-08-31 14:32:37.809[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-<==      Total: 1
+2020-08-31 14:39:53.489[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ShopDao.queryByShopId] use [master] Srategy,SqlConmmanType[SELECT]..
+2020-08-31 14:39:53.503[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-08-31 14:39:53.520[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==>  Preparing: select s.shop_name, s.shop_desc, s.shop_addr, s.shop_img, s.phone, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name from t_shop as s, t_area as a, t_shop_category as sc where s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id and s.shop_id = ? 
+2020-08-31 14:39:53.549[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==> Parameters: 1(Long)
+2020-08-31 14:39:53.608[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-<==      Total: 1
+2020-08-31 14:39:53.705[main]DEBUGcom.wyj.util.ImageUtil-current relativeAddr is:upload\item\shop\1\2020083114395380471.jpg
+2020-08-31 14:39:53.705[main]DEBUGcom.wyj.util.ImageUtil-current complete addr is:H:\projectdev\image\upload\item\shop\1\2020083114395380471.jpg
+2020-08-31 14:39:53.869[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ShopDao.updateShop] use [master] Srategy,SqlConmmanType[UPDATE]..
+2020-08-31 14:39:53.869[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-08-31 14:39:53.892[main]DEBUGcom.wyj.dao.ShopDao.updateShop-==>  Preparing: update t_shop SET shop_name=?, shop_img=?, last_edit_time=? where shop_id=? 
+2020-08-31 14:39:53.896[main]DEBUGcom.wyj.dao.ShopDao.updateShop-==> Parameters: 修改后的名字(String), upload\item\shop\1\2020083114395380471.jpg(String), 2020-08-31 14:39:53.868(Timestamp), 1(Long)
+2020-08-31 14:39:53.992[main]DEBUGcom.wyj.dao.ShopDao.updateShop-<==    Updates: 1
+2020-08-31 14:39:53.994[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ShopDao.queryByShopId] use [master] Srategy,SqlConmmanType[SELECT]..
+2020-08-31 14:39:53.994[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-08-31 14:39:53.994[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==>  Preparing: select s.shop_name, s.shop_desc, s.shop_addr, s.shop_img, s.phone, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name from t_shop as s, t_area as a, t_shop_category as sc where s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id and s.shop_id = ? 
+2020-08-31 14:39:53.995[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==> Parameters: 1(Long)
+2020-08-31 14:39:53.999[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-<==      Total: 1
+2020-08-31 14:41:05.819[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ShopDao.queryByShopId] use [master] Srategy,SqlConmmanType[SELECT]..
+2020-08-31 14:41:05.831[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-08-31 14:41:05.850[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==>  Preparing: select s.shop_name, s.shop_desc, s.shop_addr, s.shop_img, s.phone, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name from t_shop as s, t_area as a, t_shop_category as sc where s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id and s.shop_id = ? 
+2020-08-31 14:41:05.887[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==> Parameters: 1(Long)
+2020-08-31 14:41:05.923[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-<==      Total: 1
+2020-08-31 14:41:05.935[main]DEBUGcom.wyj.util.ImageUtil-current relativeAddr is:upload\item\shop\1\2020083114410532987.jpg
+2020-08-31 14:41:05.935[main]DEBUGcom.wyj.util.ImageUtil-current complete addr is:H:\projectdev\image\upload\item\shop\1\2020083114410532987.jpg
+2020-08-31 14:41:06.408[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ShopDao.updateShop] use [master] Srategy,SqlConmmanType[UPDATE]..
+2020-08-31 14:41:06.408[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-08-31 14:41:06.434[main]DEBUGcom.wyj.dao.ShopDao.updateShop-==>  Preparing: update t_shop SET shop_name=?, shop_img=?, last_edit_time=? where shop_id=? 
+2020-08-31 14:41:06.439[main]DEBUGcom.wyj.dao.ShopDao.updateShop-==> Parameters: 修改后的名字(String), upload\item\shop\1\2020083114410532987.jpg(String), 2020-08-31 14:41:06.408(Timestamp), 1(Long)
+2020-08-31 14:41:06.515[main]DEBUGcom.wyj.dao.ShopDao.updateShop-<==    Updates: 1
+2020-08-31 14:41:06.516[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ShopDao.queryByShopId] use [master] Srategy,SqlConmmanType[SELECT]..
+2020-08-31 14:41:06.517[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-08-31 14:41:06.517[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==>  Preparing: select s.shop_name, s.shop_desc, s.shop_addr, s.shop_img, s.phone, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name from t_shop as s, t_area as a, t_shop_category as sc where s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id and s.shop_id = ? 
+2020-08-31 14:41:06.517[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==> Parameters: 1(Long)
+2020-08-31 14:41:06.522[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-<==      Total: 1
+2020-08-31 14:43:48.383[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ShopDao.queryByShopId] use [master] Srategy,SqlConmmanType[SELECT]..
+2020-08-31 14:43:48.445[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-08-31 14:43:48.470[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==>  Preparing: select s.shop_name, s.shop_desc, s.shop_addr, s.shop_img, s.phone, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name from t_shop as s, t_area as a, t_shop_category as sc where s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id and s.shop_id = ? 
+2020-08-31 14:43:48.502[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==> Parameters: 1(Long)
+2020-08-31 14:43:48.535[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-<==      Total: 1
+2020-08-31 14:43:48.567[main]DEBUGcom.wyj.util.ImageUtil-current relativeAddr is:upload\item\shop\1\2020083114434847284.jpg
+2020-08-31 14:43:48.568[main]DEBUGcom.wyj.util.ImageUtil-current complete addr is:H:\projectdev\image\upload\item\shop\1\2020083114434847284.jpg
+2020-08-31 14:43:48.699[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ShopDao.updateShop] use [master] Srategy,SqlConmmanType[UPDATE]..
+2020-08-31 14:43:48.699[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-08-31 14:43:48.722[main]DEBUGcom.wyj.dao.ShopDao.updateShop-==>  Preparing: update t_shop SET shop_name=?, shop_img=?, last_edit_time=? where shop_id=? 
+2020-08-31 14:43:48.727[main]DEBUGcom.wyj.dao.ShopDao.updateShop-==> Parameters: 修改后的名字(String), upload\item\shop\1\2020083114434847284.jpg(String), 2020-08-31 14:43:48.699(Timestamp), 1(Long)
+2020-08-31 14:43:48.783[main]DEBUGcom.wyj.dao.ShopDao.updateShop-<==    Updates: 1
+2020-08-31 14:43:48.784[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ShopDao.queryByShopId] use [master] Srategy,SqlConmmanType[SELECT]..
+2020-08-31 14:43:48.784[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-08-31 14:43:48.785[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==>  Preparing: select s.shop_name, s.shop_desc, s.shop_addr, s.shop_img, s.phone, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name from t_shop as s, t_area as a, t_shop_category as sc where s.area_id = a.area_id and s.shop_category_id = sc.shop_category_id and s.shop_id = ? 
+2020-08-31 14:43:48.785[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-==> Parameters: 1(Long)
+2020-08-31 14:43:48.790[main]DEBUGcom.wyj.dao.ShopDao.queryByShopId-<==      Total: 1

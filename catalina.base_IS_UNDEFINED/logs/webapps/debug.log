@@ -1,0 +1,78 @@
+2020-09-03 01:02:50.861[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ProductCategoryDao.queryProductCategoryList] use [master] Srategy,SqlConmmanType[SELECT]..
+2020-09-03 01:02:50.994[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-09-03 01:02:51.014[main]DEBUGc.w.d.ProductCategoryDao.queryProductCategoryList-==>  Preparing: select product_category_id, product_category_name, priority, create_time, shop_id from t_product_category where shop_id = ? order by priority desc 
+2020-09-03 01:02:51.090[main]DEBUGc.w.d.ProductCategoryDao.queryProductCategoryList-==> Parameters: 1(Long)
+2020-09-03 01:02:51.594[main]DEBUGc.w.d.ProductCategoryDao.queryProductCategoryList-<==      Total: 6
+2020-09-03 01:02:51.602[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ProductCategoryDao.deleteProductCategory] use [master] Srategy,SqlConmmanType[DELETE]..
+2020-09-03 01:02:51.602[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-09-03 01:02:51.602[main]DEBUGc.wyj.dao.ProductCategoryDao.deleteProductCategory-==>  Preparing: delete from t_product_category where product_category_id = ? and shop_id = ? 
+2020-09-03 01:02:51.603[main]DEBUGc.wyj.dao.ProductCategoryDao.deleteProductCategory-==> Parameters: 4(Long), 1(Long)
+2020-09-03 01:02:52.035[main]DEBUGc.wyj.dao.ProductCategoryDao.deleteProductCategory-<==    Updates: 1
+2020-09-03 01:02:52.035[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ProductCategoryDao.deleteProductCategory] use [master] Srategy,SqlConmmanType[DELETE]..
+2020-09-03 01:02:52.035[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-09-03 01:02:52.035[main]DEBUGc.wyj.dao.ProductCategoryDao.deleteProductCategory-==>  Preparing: delete from t_product_category where product_category_id = ? and shop_id = ? 
+2020-09-03 01:02:52.036[main]DEBUGc.wyj.dao.ProductCategoryDao.deleteProductCategory-==> Parameters: 5(Long), 1(Long)
+2020-09-03 01:02:52.267[main]DEBUGc.wyj.dao.ProductCategoryDao.deleteProductCategory-<==    Updates: 1
+2020-09-03 01:02:52.267[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ProductCategoryDao.deleteProductCategory] use [master] Srategy,SqlConmmanType[DELETE]..
+2020-09-03 01:02:52.267[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-09-03 01:02:52.267[main]DEBUGc.wyj.dao.ProductCategoryDao.deleteProductCategory-==>  Preparing: delete from t_product_category where product_category_id = ? and shop_id = ? 
+2020-09-03 01:02:52.268[main]DEBUGc.wyj.dao.ProductCategoryDao.deleteProductCategory-==> Parameters: 3(Long), 1(Long)
+2020-09-03 01:02:52.370[main]DEBUGc.wyj.dao.ProductCategoryDao.deleteProductCategory-<==    Updates: 1
+2020-09-03 01:02:52.371[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ProductCategoryDao.deleteProductCategory] use [master] Srategy,SqlConmmanType[DELETE]..
+2020-09-03 01:02:52.371[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-09-03 01:02:52.371[main]DEBUGc.wyj.dao.ProductCategoryDao.deleteProductCategory-==>  Preparing: delete from t_product_category where product_category_id = ? and shop_id = ? 
+2020-09-03 01:02:52.371[main]DEBUGc.wyj.dao.ProductCategoryDao.deleteProductCategory-==> Parameters: 6(Long), 1(Long)
+2020-09-03 01:02:52.432[main]DEBUGc.wyj.dao.ProductCategoryDao.deleteProductCategory-<==    Updates: 1
+2020-09-03 01:02:52.432[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ProductCategoryDao.deleteProductCategory] use [master] Srategy,SqlConmmanType[DELETE]..
+2020-09-03 01:02:52.432[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-09-03 01:02:52.432[main]DEBUGc.wyj.dao.ProductCategoryDao.deleteProductCategory-==>  Preparing: delete from t_product_category where product_category_id = ? and shop_id = ? 
+2020-09-03 01:02:52.433[main]DEBUGc.wyj.dao.ProductCategoryDao.deleteProductCategory-==> Parameters: 7(Long), 1(Long)
+2020-09-03 01:02:52.487[main]DEBUGc.wyj.dao.ProductCategoryDao.deleteProductCategory-<==    Updates: 1
+2020-09-03 01:02:52.487[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ProductCategoryDao.deleteProductCategory] use [master] Srategy,SqlConmmanType[DELETE]..
+2020-09-03 01:02:52.487[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-09-03 01:02:52.487[main]DEBUGc.wyj.dao.ProductCategoryDao.deleteProductCategory-==>  Preparing: delete from t_product_category where product_category_id = ? and shop_id = ? 
+2020-09-03 01:02:52.488[main]DEBUGc.wyj.dao.ProductCategoryDao.deleteProductCategory-==> Parameters: 2(Long), 1(Long)
+2020-09-03 01:02:52.607[main]DEBUGc.wyj.dao.ProductCategoryDao.deleteProductCategory-<==    Updates: 1
+2020-09-03 16:17:34.004[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ProductDao.insertProduct] use [master] Srategy,SqlConmmanType[INSERT]..
+2020-09-03 16:17:34.050[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-09-03 16:17:34.093[main]DEBUGcom.wyj.dao.ProductDao.insertProduct-==>  Preparing: insert into t_product(product_name,product_desc,img_addr,normal_price,promotion_price, priority,create_time,last_edit_time,enable_status,product_category_id,shop_id) values (?,?,?,?,?,?, ?,?,?,?,?) 
+2020-09-03 16:17:34.155[main]DEBUGcom.wyj.dao.ProductDao.insertProduct-==> Parameters: 测试2(String), 测试描述2(String), test_Addr2(String), null, null, 1(Integer), 2020-09-03 16:17:33.894(Timestamp), 2020-09-03 16:17:33.894(Timestamp), null, 1(Long), 1(Long)
+2020-09-03 16:20:19.811[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ProductDao.insertProduct] use [master] Srategy,SqlConmmanType[INSERT]..
+2020-09-03 16:20:19.827[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-09-03 16:20:19.841[main]DEBUGcom.wyj.dao.ProductDao.insertProduct-==>  Preparing: insert into t_product(product_name,product_desc,img_addr,normal_price,promotion_price, priority,create_time,last_edit_time,enable_status,product_category_id,shop_id) values (?,?,?,?,?,?, ?,?,?,?,?) 
+2020-09-03 16:20:19.888[main]DEBUGcom.wyj.dao.ProductDao.insertProduct-==> Parameters: 测试1(String), 测试描述1(String), test_Addr(String), null, null, 1(Integer), 2020-09-03 16:20:19.796(Timestamp), 2020-09-03 16:20:19.796(Timestamp), 0(Integer), 1(Long), 1(Long)
+2020-09-03 16:35:07.360[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ProductDao.insertProduct] use [master] Srategy,SqlConmmanType[INSERT]..
+2020-09-03 16:35:07.376[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-09-03 16:35:07.390[main]DEBUGcom.wyj.dao.ProductDao.insertProduct-==>  Preparing: insert into t_product(product_name,product_desc,img_addr,normal_price,promotion_price, priority,create_time,last_edit_time,enable_status,product_category_id,shop_id) values (?,?,?,?,?,?, ?,?,?,?,?) 
+2020-09-03 16:35:07.429[main]DEBUGcom.wyj.dao.ProductDao.insertProduct-==> Parameters: 测试1(String), 测试描述1(String), test_Addr(String), null, null, 1(Integer), 2020-09-03 16:35:07.347(Timestamp), 2020-09-03 16:35:07.347(Timestamp), 0(Integer), 1(Long), 1(Long)
+2020-09-03 16:37:21.439[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ProductDao.insertProduct] use [master] Srategy,SqlConmmanType[INSERT]..
+2020-09-03 16:37:21.462[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-09-03 16:37:21.476[main]DEBUGcom.wyj.dao.ProductDao.insertProduct-==>  Preparing: insert into t_product(product_name,product_desc,img_addr,normal_price,promotion_price, priority,create_time,last_edit_time,enable_status,product_category_id,shop_id) values (?,?,?,?,?,?, ?,?,?,?,?) 
+2020-09-03 16:37:21.538[main]DEBUGcom.wyj.dao.ProductDao.insertProduct-==> Parameters: 测试1(String), 测试描述1(String), test_Addr(String), null, null, 1(Integer), 2020-09-03 16:37:21.426(Timestamp), 2020-09-03 16:37:21.426(Timestamp), 0(Integer), 10(Long), 1(Long)
+2020-09-03 16:37:21.991[main]DEBUGcom.wyj.dao.ProductDao.insertProduct-<==    Updates: 1
+2020-09-03 16:37:21.998[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ProductDao.insertProduct] use [master] Srategy,SqlConmmanType[INSERT]..
+2020-09-03 16:37:21.999[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-09-03 16:37:21.999[main]DEBUGcom.wyj.dao.ProductDao.insertProduct-==>  Preparing: insert into t_product(product_name,product_desc,img_addr,normal_price,promotion_price, priority,create_time,last_edit_time,enable_status,product_category_id,shop_id) values (?,?,?,?,?,?, ?,?,?,?,?) 
+2020-09-03 16:37:22.000[main]DEBUGcom.wyj.dao.ProductDao.insertProduct-==> Parameters: 测试2(String), 测试描述2(String), test_Addr2(String), null, null, 1(Integer), 2020-09-03 16:37:21.426(Timestamp), 2020-09-03 16:37:21.426(Timestamp), 0(Integer), 10(Long), 1(Long)
+2020-09-03 16:37:22.057[main]DEBUGcom.wyj.dao.ProductDao.insertProduct-<==    Updates: 1
+2020-09-03 16:37:53.524[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ProductImgDao.batchInsertImg] use [master] Srategy,SqlConmmanType[INSERT]..
+2020-09-03 16:37:53.526[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-09-03 16:37:53.705[main]DEBUGcom.wyj.dao.ProductImgDao.batchInsertImg-==>  Preparing: insert into t_product_img(img_addr,img_desc,priority,create_time,product_id) values ( ?, ?, ?, ? ) , ( ?, ?, ?, ? ) 
+2020-09-03 16:37:53.745[main]DEBUGcom.wyj.dao.ProductImgDao.batchInsertImg-==> Parameters: pic2(String), 测试pro_img2(String), 2020-09-03 16:37:53.511(Timestamp), 1(Long), null, null, null, 0(Long)
+2020-09-03 16:38:32.051[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ProductImgDao.batchInsertImg] use [master] Srategy,SqlConmmanType[INSERT]..
+2020-09-03 16:38:32.053[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-09-03 16:38:32.097[main]DEBUGcom.wyj.dao.ProductImgDao.batchInsertImg-==>  Preparing: insert into t_product_img(img_addr,img_desc,priority,create_time,product_id) values ( ?, ?, ?, ? ) , ( ?, ?, ?, ? ) 
+2020-09-03 16:38:32.136[main]DEBUGcom.wyj.dao.ProductImgDao.batchInsertImg-==> Parameters: pic2(String), 测试pro_img2(String), 2020-09-03 16:38:32.037(Timestamp), 3(Long), null, null, null, 0(Long)
+2020-09-03 16:42:51.984[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ProductImgDao.batchInsertProductImg] use [master] Srategy,SqlConmmanType[INSERT]..
+2020-09-03 16:42:52.026[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-09-03 16:42:52.067[main]DEBUGcom.wyj.dao.ProductImgDao.batchInsertProductImg-==>  Preparing: insert into t_product_img(img_addr,img_desc,priority,create_time,product_id) values ( ?, ?, ?, ?, ? ) , ( ?, ?, ?, ?, ? ) 
+2020-09-03 16:42:52.238[main]DEBUGcom.wyj.dao.ProductImgDao.batchInsertProductImg-==> Parameters: pic2(String), 测试pro_img2(String), 2(Integer), 2020-09-03 16:42:51.969(Timestamp), 3(Long), null, null, null, null, 0(Long)
+2020-09-03 16:43:27.809[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ProductImgDao.batchInsertProductImg] use [master] Srategy,SqlConmmanType[INSERT]..
+2020-09-03 16:43:27.811[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-09-03 16:43:27.847[main]DEBUGcom.wyj.dao.ProductImgDao.batchInsertProductImg-==>  Preparing: insert into t_product_img(img_addr,img_desc,priority,create_time,product_id) values ( ?, ?, ?, ?, ? ) , ( ?, ?, ?, ?, ? ) 
+2020-09-03 16:43:27.887[main]DEBUGcom.wyj.dao.ProductImgDao.batchInsertProductImg-==> Parameters: pic1(String), 测试pro_img1(String), 1(Integer), 2020-09-03 16:43:27.794(Timestamp), 1(Long), pic2(String), 测试pro_img2(String), 2(Integer), 2020-09-03 16:43:27.794(Timestamp), 3(Long)
+2020-09-03 16:44:00.141[main]DEBUGcom.wyj.dao.split.DynamicDataSourceIntercaptor-设置方法[com.wyj.dao.ProductImgDao.batchInsertProductImg] use [master] Srategy,SqlConmmanType[INSERT]..
+2020-09-03 16:44:00.143[main]DEBUGcom.wyj.dao.split.DynamicDataSourceHolder-所使用的数据源为:master
+2020-09-03 16:44:00.190[main]DEBUGcom.wyj.dao.ProductImgDao.batchInsertProductImg-==>  Preparing: insert into t_product_img(img_addr,img_desc,priority,create_time,product_id) values ( ?, ?, ?, ?, ? ) , ( ?, ?, ?, ?, ? ) 
+2020-09-03 16:44:00.230[main]DEBUGcom.wyj.dao.ProductImgDao.batchInsertProductImg-==> Parameters: pic1(String), 测试pro_img1(String), 1(Integer), 2020-09-03 16:44:00.126(Timestamp), 3(Long), pic2(String), 测试pro_img2(String), 2(Integer), 2020-09-03 16:44:00.126(Timestamp), 3(Long)
+2020-09-03 16:44:00.376[main]DEBUGcom.wyj.dao.ProductImgDao.batchInsertProductImg-<==    Updates: 2

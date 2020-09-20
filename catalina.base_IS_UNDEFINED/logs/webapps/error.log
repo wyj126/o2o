@@ -1,0 +1,3 @@
+2020-08-26 16:51:48.343[main]ERRORcom.wyj.util.ImageUtil-java.io.FileNotFoundException: Could not find file: H:\wx\微信图片1.png
+2020-08-26 16:53:17.736[main]ERRORcom.wyj.util.ImageUtil-javax.imageio.IIOException: Can't read input file!
+2020-08-26 16:53:57.040[main]ERRORcom.wyj.util.ImageUtil-javax.imageio.IIOException: Can't read input file!
